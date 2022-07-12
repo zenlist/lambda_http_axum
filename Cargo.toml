@@ -1,0 +1,13 @@
+[package]
+name = "lambda_http_axum"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = { version = "0.5.12", default-features = false }
+bytes = "1.1.0"
+http = "0.2.8"
+hyper = { version = "0.14.20", default-features = false }
+lambda_http = "0.5.2"
